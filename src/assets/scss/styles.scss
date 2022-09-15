@@ -1,0 +1,18 @@
+/* base */
+@import 'base/_reset';
+@import 'base/_theme';
+
+/* config */
+@import 'config/_variables';
+@import 'config/mixins';
+
+/* layout */
+@import '../../layout/_layout';
+@import '../../layout/_header';
+@import '../../layout/_footer';
+
+/* components */
+@import 'components/_buttons';
+
+/* pages */
+@import '../../pages/home/_home';
