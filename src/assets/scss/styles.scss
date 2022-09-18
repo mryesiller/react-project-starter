@@ -1,6 +1,9 @@
 /* base */
 @import 'base/_reset';
-@import 'base/_theme';
+@import 'base/_typography';
+
+/* themes */
+@import 'themes/_dark';
 
 /* config */
 @import 'config/_variables';
@@ -10,6 +13,7 @@
 @import '../../layout/_layout';
 @import '../../layout/header/_header';
 @import '../../layout/footer/_footer';
+@import '../../layout/main/_main';
 
 /* components */
 @import 'components/_buttons';
